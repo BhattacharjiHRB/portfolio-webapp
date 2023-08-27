@@ -1,3 +1,4 @@
+const newLocal = " bg-gradient-to-r from-gray-500";
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,13 +7,23 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    // screens: {
+    //   sm: '380px',
+    //   md: '768px',
+    //   lg: '976px',
+    //   xl: '1440px',
+    // },
+    // fontFamily:{
+    //   sans : ["Georgia", "Times New Roman", "Sans-Serif"],
+    //   serif : ["Merriweather","sans-serif"],
+    //   display : ["Oswald"]
+    // },
+    
+    // extend: {
+    //   backgroundImage: {
+       
+    //   },
+    // },
   },
   plugins: [],
 }

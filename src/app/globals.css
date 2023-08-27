@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base{
+  h1,h2,h3,h4,h5,h6{
+    font-family: Oswald , serif , arial, system-ui;
+  }
+  html, body{
+    font-family: Merriweather, "Helvetica Neue",
+  }
+  h1 {
+    @apply text-4xl sm:text-6xl
+    
+  }
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +39,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
 }
