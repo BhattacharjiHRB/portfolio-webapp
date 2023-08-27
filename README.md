@@ -1,7 +1,3 @@
- ##Portfolio-webapp 
-This a modern webapp built with nextJs and TailwindCss. This the showcase about my skills 
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
