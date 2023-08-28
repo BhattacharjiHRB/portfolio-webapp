@@ -7,23 +7,23 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    // screens: {
-    //   sm: '380px',
-    //   md: '768px',
-    //   lg: '976px',
-    //   xl: '1440px',
-    // },
-    // fontFamily:{
-    //   sans : ["Georgia", "Times New Roman", "Sans-Serif"],
-    //   serif : ["Merriweather","sans-serif"],
-    //   display : ["Oswald"]
-    // },
+    screens: {
+      sm: '380px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    fontFamily:{
+      sans : ["Georgia", "Times New Roman", "Sans-Serif"],
+      serif : ["Merriweather","sans-serif"],
+      display : ["Oswald"]
+    },
     
-    // extend: {
-    //   backgroundImage: {
+    extend: {
+      backgroundImage: {
        
-    //   },
-    // },
+      },
+    },
   },
   plugins: [],
 }
